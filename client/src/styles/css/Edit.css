@@ -1,0 +1,52 @@
+.Edit-p{
+  margin-bottom: 0;
+  margin-top: 6px;
+  color: #f04900;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.Edit-textarea{
+  width: 100%;
+}
+.Edit-container{
+  max-width:450px;
+  width:100%;
+  margin:0 auto;
+  margin-top: 160px;
+  position:relative;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #f04900;
+  border: 2px solid #c7d5db;
+}
+fieldset input[class*="Edit-input"] {
+	border: 1px solid #c7d5db;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 2px;
+	width: 100%;
+  font-weight: 100;
+}
+input[class*="Edit-input"] {
+  width: 100%;
+  height: 35px;
+}
+textarea[class*="Edit-input"]  {
+  border: 1px solid #c7d5db;
+    font-weight: 100;
+}
+.Edit-button{
+  background-color:#f05d23;
+  border: none;
+  color: White;
+  text-transform: uppercase;
+}
+.Edit-button:hover{
+  background-color: rgba(240, 93, 35, 0.6);
+  border: none;
+  color: White;
+  text-transform: uppercase;
+}
+.Edit-h3{
+  border-bottom: 1px solid #f05d23;
+}

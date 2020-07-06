@@ -1,0 +1,53 @@
+.Show{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fffcf9;
+  border: 1px solid #c7d5db;
+
+  border-bottom: none;
+  padding-bottom: 12px
+
+}
+.Show-img{
+  width: 100%;
+  padding-bottom: 16px;
+}
+.row div{
+  margin: 0 auto;
+  width: 100%;
+margin-top: 22px;
+}
+
+.Show-Title{
+  padding: 17px;
+}
+.Show-text{
+  margin-bottom: 17px;
+}
+.Show-delete-button{
+  margin: 4px;
+  margin-left: 0;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(240, 56, 35);
+}
+.Show-delete-button:hover{
+  margin: 4px;
+  margin-left: 0;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(196, 25, 6);
+}
+div.Show-buttons{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fffcf9;
+  border: 1px solid #c7d5db;
+  margin-top: 0;
+  padding: 7px;
+}

@@ -1,0 +1,93 @@
+.Login{
+  text-align: center;
+  border:1px solid rgba(157, 157, 157, 0.72);
+  height: 420px;
+  width: 340px;
+  margin: 0 auto;
+  background-color: white;
+}
+.Login-inputs input{
+  margin-top: 15px;
+  width: 100%;
+}
+.Login-header{
+  height: 140px;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnfNW3rw-zwG__C16s_yL2eAsAqQE4DPe9YWBkgb3hBKkSJm6T&usqp=CAU");
+}
+.Login-form{
+  padding: 18px;
+  padding-top: 52px;
+
+}
+.Login-name{
+  text-align: left;
+  padding: 7px;
+  color: white;
+  text-transform: uppercase;
+}
+.Login-button{
+  background-color:rgb(27, 158, 56);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Login-button:hover{
+  background-color:rgb(27, 158, 56);
+  border: none;
+  color:rgba(172, 170, 171, 0.75);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Register-name{
+  text-align: left;
+  padding: 7px;
+  color: white;
+  text-transform: uppercase;
+}
+.Register-header{
+  height: 140px;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/564x/e3/f4/ed/e3f4edf7dc47359b20bd4176f88735cb.jpg");
+}
+.Register-form{
+  padding: 18px;
+  padding-top: 52px;
+}
+.Register-button{
+  background-color:rgb(245, 106, 5);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Register-button:hover{
+  background-color:rgb(245, 106, 5);
+  border: none;
+  color:rgba(172, 170, 171, 0.75);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Register-message{
+  position: absolute;
+  padding-top: 96px;
+  padding-left: 7px;
+  font-size: 22px;
+  color: #ffff;
+}
+input:focus::placeholder {
+  color: transparent;
+}
